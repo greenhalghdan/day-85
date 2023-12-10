@@ -38,10 +38,10 @@ def add_watermark():
         font=font,
         anchor="ms"
     )
-    plt.subplot(
-        1,2,2
-    )
-    plt.imshow(watermark_image)
+    # plt.subplot(
+    #     1,2,2
+    # )
+    # plt.imshow(watermark_image)
     watermark_image.show()
 
 
